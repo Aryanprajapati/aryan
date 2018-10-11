@@ -43,7 +43,7 @@ section.vedio_background {overflow: hidden;position: relative;height: 668px;}
 .vedio_text {position: absolute;top: 0;padding: 206px 0;width: 560px;}
 .vedio_background h1{color: #4a4a4a;font-size: 24px;font-weight: 900;text-transform: uppercase;letter-spacing: 8.2px;}
 .headline_label_clint{color: #4a4a4a;font-family: "Lato", Sans-serif;font-size: 60px;font-weight: 300;text-transform: uppercase;text-align: left;}
-.headline_label_growth {font-family: "Lato", Sans-serif;font-size: 60px;font-weight: 900;text-transform: uppercase;background-image: url("../images/text-bkg.jpg");background-position: top center;background-repeat: no-repeat;background-size: cover;text-align: left;-webkit-background-clip: text;color: transparent;}
+.headline_label_growth {font-family: "Lato", Sans-serif;font-size: 60px;font-weight: 900;text-transform: uppercase;background-image: url("../text-bkg.jpg");background-position: top center;background-repeat: no-repeat;background-size: cover;text-align: left;-webkit-background-clip: text;color: transparent;}
 .vedio_background p{color: #515151;line-height: 25px;font-size: 16px;letter-spacing: 1px;}
 .btn_wrapper{background: #22d095;color: #fff;font-size: 16px;text-transform: uppercase;padding: 10px 30px;border-radius: 5px;margin-top: 20px;display: block;width: 30%;text-align: center;transition:all 0.5s;}
 .btn_wrapper:hover{background-color:#1a805d;color:#fff;transition:all 0.5s;}
@@ -112,7 +112,7 @@ img.service_tab.active{border-color: #22d095;}
 .slick-slide {transition: all ease-in-out .3s;opacity: .2;} .slick-active {opacity: .5;}.slick-current {opacity: 1;}
 
 /******CONTACT-WRAPPER******/
-.contact_wrapper{background: url("../images/contact_background.jpg");background-repeat: no-repeat;background-size:cover;}
+.contact_wrapper{background: url("../contact_background.jpg");background-repeat: no-repeat;background-size:cover;}
 .form_wrapper {width: 47%;height: 500px;background: #fff;padding:40px 50px;}
 .transparent_box {position: relative;width: 53%;}
 .form_wrapper h2 {font-size: 36px;font-family: "Lato", Sans-serif;margin-bottom:28px;}
@@ -151,7 +151,7 @@ input.btn_wrapper {cursor: pointer;}
 /*------------------------------------------------------------------ABOUT PAGE CSS START-------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /******SLIDER=WRAPPER******/
-.slider_wrapper{background:url("../images/slider_background.png") no-repeat;padding:160px 0;background-size: cover;color:#fff;}
+.slider_wrapper{background:url("../slider_background.png") no-repeat;padding:160px 0;background-size: cover;color:#fff;}
 .about_slider{width: 560px;text-align: center;}
 .about_slider .btn_wrapper{width: 230px;margin: auto;}
 .h2{font-size: 32px;letter-spacing: 1.5px;}
@@ -196,7 +196,7 @@ i.fa.fa-sort-desc{position: relative;top: -2px;margin-right: 10px;}
 /*-------------------------------------------------------------------PAGE PAGE CSS END'S-------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /******SLIDER=WRAPPER******/
-#page .slider_wrapper{background:url("../images/slider_background2.png") no-repeat;background-size:cover;}
+#page .slider_wrapper{background:url("../slider_background2.png") no-repeat;background-size:cover;}
 .page h1 {font-size: 48px;color:#19191a;font-family: "Lato", sans-serif;}
 .page h2 {font-size: 36px;color:#19191a;font-family: "Lato", sans-serif;}
 .page h3 {font-size: 30px;color:#19191a;font-family: "Lato", sans-serif;}
@@ -215,13 +215,13 @@ i.fa.fa-sort-desc{position: relative;top: -2px;margin-right: 10px;}
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------FEATURES PAGE CSS START-----------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#features .slider_wrapper{background:url("../images/slider_background3.png") no-repeat;background-size:cover;}
+#features .slider_wrapper{background:url("../slider_background3.png") no-repeat;background-size:cover;}
 #features .about_wrapper{margin-top:0;}
 #features .h2,#contact .about_slider .h2,#contact .about_slider p {text-align:left;}
 #features .about_slider .h2{text-align: center;}
 #features .about_text_block .btn_wrapper {width: 240px;background: #19191a;}
 #features .about_text_block .btn_wrapper:hover{background: #22d095;}
-#features .aboutUs_wrapper{background:url("../images/slider_background4.png") no-repeat;background-size:cover;padding: 110px 0;}
+#features .aboutUs_wrapper{background:url("../slider_background4.png") no-repeat;background-size:cover;padding: 110px 0;}
 .pricing_table li{float: left;width: calc(33.33% - 20px);text-align: center;background: #fff;margin-right: 30px;padding: 50px 0;} 
 .pricing_table li:nth-child(2){background:#22d095;color:#fff;} 
 .pricing_table li:nth-child(2) p{color:#fff;} 
@@ -242,7 +242,7 @@ i.fa.fa-sort-desc{position: relative;top: -2px;margin-right: 10px;}
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .blog_wrapper{padding-bottom: 50px;margin-bottom: 50px;border-bottom: 1px solid #ccc;}
 .blog_wrapper:last-child{margin-bottom:0;padding-bottom:0;border-bottom:0;}
-#blog .slider_wrapper{background:url("../images/slider_background5.png") no-repeat;background-size:cover;}
+#blog .slider_wrapper{background:url("../slider_background5.png") no-repeat;background-size:cover;}
 #blog .about_slider{width:100%;}
 .blgo_date_wrapper span{background: #f6f6f6;font-size: 18px;text-align: center;padding: 20px;display: block;width: 80px;height: 80px;border-radius: 100%;cursor: pointer;transition: all 0.5s;}
 .blgo_date_wrapper span:hover{background: #22d095;transition: all 0.5s;color:#fff;} 
@@ -270,7 +270,7 @@ i.fa.fa-sort-desc{position: relative;top: -2px;margin-right: 10px;}
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------CONTACT PAGE CSS START-----------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-#contact .slider_wrapper{background:url("../images/slider_background6.png") no-repeat;background-size:cover;}
+#contact .slider_wrapper{background:url("../slider_background6.png") no-repeat;background-size:cover;}
 #contact .about_slider .btn_wrapper{margin-left:0;}
 .about_images_block input,.about_images_block textarea{width: 100%;margin-bottom: 20px;font-size: 16px;padding: 10px 10px;border: none;padding-left: 0;border-bottom: 1px solid #ababab;outline: none;} 
 .about_images_block textarea{padding-top: 0;min-height: 130px;max-height: 130px;min-width: 100%;max-width: 100%;}
@@ -419,9 +419,9 @@ i.fa.fa-sort-desc{position: relative;top: -2px;margin-right: 10px;}
 	.blog_wrapper li{width: 100%;margin-right: 0;margin-bottom:20px;}
 	.blog_images {float: left;width: 25%;height: 160px;}
 	.blog_text{padding: 24px 20px;float: right;width: 75%;}
-	.blog_wrapper li:first-child .blog_images {background: url(../images/blog_responsive1.png);}
-	.blog_wrapper li:nth-child(2) .blog_images {background: url(../images/blog_responsive2.png);}
-	.blog_wrapper li:nth-child(3) .blog_images {background: url(../images/blog_responsive3.png);}
+	.blog_wrapper li:first-child .blog_images {background: url(../blog_responsive1.png);}
+	.blog_wrapper li:nth-child(2) .blog_images {background: url(../blog_responsive2.png);}
+	.blog_wrapper li:nth-child(3) .blog_images {background: url(../blog_responsive3.png);}
 	.blog_images img{display: none;}
 
 	/******CONTACT-WRAPPER******/
